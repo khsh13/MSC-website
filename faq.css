@@ -150,8 +150,13 @@ width:40rem;
     display:none;
       }
     .accordion .accordion-item {
+
+        /*background-color: #213a62;
+        border:#213a62;*/
+
         background-color: #213a62;
         border:#213a62;
+
         width:16rem;
         
         }
