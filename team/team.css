@@ -3,7 +3,7 @@ p,a,h1,h2,h3,h4 {
 	padding: 0;
 }
 body{
-    background-image:url("background.jpg");
+    background:#213a62;
     size:cover;
 }
 
@@ -47,6 +47,7 @@ body{
     border-radius: 50%;
     border: 4px dashed transparent;
     transition: padding .3s;
+   
 }
 
 .section-team .single-person:hover .person-image {
@@ -90,6 +91,7 @@ body{
 	margin-bottom: 10px;
 	font-size: 28px;
     font-weight: 700;
+    color:#016cec;;
 }
 
 .section-team .single-person .person-info .speciality {
@@ -107,6 +109,7 @@ footer {
     width: 100%;
    
     background: linear-gradient(to right, #4797ff,#001d42);
+    color:white;
    
     padding: 100px 0 30px;
     border-top-left-radius: 0px;
@@ -128,6 +131,7 @@ footer {
   .col {
     flex-basis: 25%;
     padding: 10px;
+    color:white;
   }
   
   .col:nth-child(2),
@@ -272,113 +276,13 @@ footer {
     font-family: 'Lobster', cursive;
     font-family: 'Patrick Hand', cursive;
 }
-h2{
-  color:#76bffa;
-  font-weight: bolder;
-}
+
 .navlogo{
   height:6rem;
   margin-top:1rem;
   margin-left:1rem;
 }
-.accordion{
-  margin-top:3rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.accordion .accordion-item {
-background-color: #213a62;
-border:#213a62;
-width:40rem;
 
-}
-.accordion .accordion-item button[aria-expanded='true'] {
-
-}
-
-.accordion button {
- position: relative;
- display: block;
- text-align: left;
- width: 100%;
- padding: 1em 0;
- color: #7288a2;
- font-size: 1.15rem;
- font-weight: 400;
- border: none;
- background: none;
- outline: none;
-}
-.accordion button:hover, .accordion button:focus {
- cursor: pointer;
- color: #03b5d2;
-}
-.accordion button:hover::after, .accordion button:focus::after {
- cursor: pointer;
- color: #03b5d2;
-
-}
-.accordion button .accordion-title {
- padding: 1em 1.5em 1em 0;
-   color:white;
-   font-weight: bold;
-}
-.accordion button .icon {
- display: inline-block;
- position: absolute;
- top: 18px;
- right: 0;
- width: 22px;
- height: 22px;
- border: 1px solid;
- border-radius: 22px;
-}
-.accordion button .icon::before {
- display: block;
- position: absolute;
- content: '';
- top: 9px;
- left: 5px;
- width: 10px;
- height: 2px;
- background: currentColor;
-}
-.accordion button .icon::after {
- display: block;
- position: absolute;
- content: '';
- top: 5px;
- left: 9px;
- width: 2px;
- height: 10px;
- background: currentColor;
-}
-.accordion button[aria-expanded='true'] {
- color: #03b5d2;
-}
-.accordion button[aria-expanded='true'] .icon::after {
- width: 0;
-}
-.accordion button[aria-expanded='true'] + .accordion-content {
- opacity: 1;
- max-height: 9em;
- transition: all 200ms linear;
- will-change: opacity, max-height;
-}
-.accordion .accordion-content {
- opacity: 0;
- max-height: 0;
- overflow: hidden;
- transition: opacity 200ms linear, max-height 200ms linear;
- will-change: opacity, max-height;
-   color:white;
-
-}
-.accordion .accordion-content p {
- font-size: 1rem;
- font-weight: 300;
- margin: 2em 0;
-}
 
 .navbar-inline{
 display: inline-block;
@@ -390,27 +294,6 @@ right:0;
 { .navlogo{
   height:6rem;
 }
-h2{
-  color:#76bffa;
-  font-weight: bolder;
-font-size:1.2rem;
-}
-.faqimg{
-display: none;
-}
-
-  .accordion .accordion-item {
-
-      /*background-color: #213a62;
-      border:#213a62;*/
-
-      background-color: #213a62;
-      border:#213a62;
-
-      width:16rem;
-      
-      }
-      
       .nav-click{
           color:white;
           font-size:1rem;
