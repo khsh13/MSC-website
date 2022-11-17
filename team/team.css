@@ -1,0 +1,423 @@
+p,a,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image:url("background.jpg");
+    size:cover;
+}
+
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+}
+
+.section-team .header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+    position:center;
+    color:black
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f6f9ff;
+	border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #016cec, #00b5f7);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #016cec, #00b5f7);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+}
+.icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+    
+}
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+/*Footer*/
+footer {
+    width: 100%;
+   
+    background: linear-gradient(to right, #4797ff,#001d42);
+   
+    padding: 100px 0 30px;
+    border-top-left-radius: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    
+  }
+  
+  .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .col {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  .col:nth-child(2),
+  .col:nth-child(3) {
+    flex-basis: 15%;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  ul li {
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  
+  form .far {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+  }
+  
+  form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  form button .fas {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .social-icons .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  .underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+   position: absolute;
+    top: 25px;
+    left: 0;
+    margin-top:1.5rem;
+  }
+  
+  .underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+  }
+  
+  @keyframes moving {
+    0% {
+      left: -20px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    footer {
+      bottom: unset;
+    }
+    .col {
+      flex-basis: 100%;
+    }
+  
+    .col:nth-child(2), .col:nth-child(3) {
+      flex-basis: 100%;
+    }
+  }
+  /*navbar*/
+  .nav-click{
+    color:white;
+    font-size:1rem;
+    font-family: 'Caveat', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+h2{
+  color:#76bffa;
+  font-weight: bolder;
+}
+.navlogo{
+  height:6rem;
+  margin-top:1rem;
+  margin-left:1rem;
+}
+.accordion{
+  margin-top:3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.accordion .accordion-item {
+background-color: #213a62;
+border:#213a62;
+width:40rem;
+
+}
+.accordion .accordion-item button[aria-expanded='true'] {
+
+}
+
+.accordion button {
+ position: relative;
+ display: block;
+ text-align: left;
+ width: 100%;
+ padding: 1em 0;
+ color: #7288a2;
+ font-size: 1.15rem;
+ font-weight: 400;
+ border: none;
+ background: none;
+ outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+ cursor: pointer;
+ color: #03b5d2;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+ cursor: pointer;
+ color: #03b5d2;
+
+}
+.accordion button .accordion-title {
+ padding: 1em 1.5em 1em 0;
+   color:white;
+   font-weight: bold;
+}
+.accordion button .icon {
+ display: inline-block;
+ position: absolute;
+ top: 18px;
+ right: 0;
+ width: 22px;
+ height: 22px;
+ border: 1px solid;
+ border-radius: 22px;
+}
+.accordion button .icon::before {
+ display: block;
+ position: absolute;
+ content: '';
+ top: 9px;
+ left: 5px;
+ width: 10px;
+ height: 2px;
+ background: currentColor;
+}
+.accordion button .icon::after {
+ display: block;
+ position: absolute;
+ content: '';
+ top: 5px;
+ left: 9px;
+ width: 2px;
+ height: 10px;
+ background: currentColor;
+}
+.accordion button[aria-expanded='true'] {
+ color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+ width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+ opacity: 1;
+ max-height: 9em;
+ transition: all 200ms linear;
+ will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+ opacity: 0;
+ max-height: 0;
+ overflow: hidden;
+ transition: opacity 200ms linear, max-height 200ms linear;
+ will-change: opacity, max-height;
+   color:white;
+
+}
+.accordion .accordion-content p {
+ font-size: 1rem;
+ font-weight: 300;
+ margin: 2em 0;
+}
+
+.navbar-inline{
+display: inline-block;
+position: absolute;
+top:0;
+right:0;
+}
+@media(max-width:819px)
+{ .navlogo{
+  height:6rem;
+}
+h2{
+  color:#76bffa;
+  font-weight: bolder;
+font-size:1.2rem;
+}
+.faqimg{
+display: none;
+}
+
+  .accordion .accordion-item {
+
+      /*background-color: #213a62;
+      border:#213a62;*/
+
+      background-color: #213a62;
+      border:#213a62;
+
+      width:16rem;
+      
+      }
+      
+      .nav-click{
+          color:white;
+          font-size:1rem;
+          font-family: 'Caveat', cursive;
+          font-family: 'Courgette', cursive;
+          font-family: 'Lobster', cursive;
+          font-family: 'Patrick Hand', cursive;
+      }
+}
+
