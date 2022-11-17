@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Lobster&family=Patrick+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Courgette&family=Lobster&family=Patrick+Hand&display=swap');
+*{
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Patrick Hand', cursive;
+}
 html,body{
     overflow-x: hidden;
 }
@@ -7,64 +13,51 @@ html,body{
         background: linear-gradient(to right, #4797ff,#001d42);
   
 }
+
 .navbar-inline{
   display: inline-block;
   position: absolute;
   top:0;
   right:0;
 }
-
 .nav-click{
-    color:white;
-    font-size:1.5rem;
-    font-family: 'Caveat', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Lobster', cursive;
-    font-family: 'Patrick Hand', cursive;
+  color:white;
+  font-size: 1.25rem;
 }
 #home{
     display:flex;
     flex-wrap: wrap-reverse;
-<<<<<<< HEAD
-    margin:0rem 0 0 15rem;
+    margin:0rem 7rem 0 10rem;
     height:80vh;
 
-=======
-    margin:8rem 0 0 15rem;
-    height:100vh;
->>>>>>> 285e19ec529a09723c2052b349f4b9096f0b4026
 }
 .desc{
     width:35rem; 
 }
-.desc h1{
+.desc h1{ font-family: 'Bebas Neue', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Patrick Hand', cursive;
     color:white;
     font-size:2.5rem;
-<<<<<<< HEAD
     margin-top:8rem;
-=======
-    margin-top:2rem;
->>>>>>> 285e19ec529a09723c2052b349f4b9096f0b4026
 
 }
 .desc p{
     color:white;
-    font-size:1.5rem;
+    font-size:2rem;
 }
 .navlogo{
-    height:8rem;
+    height:6rem;
+    margin-top:1rem;
+    margin-left:1rem;
 }
 .logophn{
     display:none;
 }
 .homeimage{
-<<<<<<< HEAD
     margin-left:10rem;
-=======
-    margin-left:6rem;
-    
-
->>>>>>> 285e19ec529a09723c2052b349f4b9096f0b4026
 }
 
 .homeimage img{
@@ -72,7 +65,6 @@ html,body{
 }
  @media (max-width:1024px)
  {
-<<<<<<< HEAD
   .homeimage{
     margin-left:1rem;
     margin-bottom: 0;
@@ -85,11 +77,6 @@ html,body{
   .navlogo{
     height:6rem;
   }
-=======
-    .navlogo{
-  display:none;
-    }
->>>>>>> 285e19ec529a09723c2052b349f4b9096f0b4026
     .desc h1{
         color:white;
         font-size:1.5rem;
@@ -99,11 +86,7 @@ html,body{
     #home{
         display:flex;
         flex-wrap: wrap-reverse;
-<<<<<<< HEAD
         margin:0rem 2rem 0 2rem;
-=======
-        margin:5rem 2rem 0 2rem;
->>>>>>> 285e19ec529a09723c2052b349f4b9096f0b4026
     }
     .desc p{
         color:white;
@@ -112,10 +95,7 @@ html,body{
     .nav-click{
         color:white;
         font-size:1rem;
-        font-family: 'Caveat', cursive;
-        font-family: 'Courgette', cursive;
-        font-family: 'Lobster', cursive;
-        font-family: 'Patrick Hand', cursive;
+
     }
     .logophn{
         height: 6rem;
