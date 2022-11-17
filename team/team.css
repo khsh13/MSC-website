@@ -117,19 +117,6 @@ body{
 }
 /*Footer*/
 footer {
-<<<<<<< HEAD
-    width: 100%;
-   
-    background: linear-gradient(to right, #4797ff,#001d42);
-    color:white;
-   
-    padding: 100px 0 30px;
-    border-top-left-radius: 0px;
-    font-size: 13px;
-    line-height: 20px;
-    
-  }
-=======
   width: 100%;
  
   background: linear-gradient(to right, #4797ff,#001d42);
@@ -138,7 +125,6 @@ footer {
   border-top-left-radius: 0px;
   font-size: 13px;
   line-height: 20px;
->>>>>>> 83d17164f1ad554a22b360a25e43cf4df38fb30b
   
 }
 
@@ -283,13 +269,7 @@ hr {
     bottom: unset;
   }
   .col {
-<<<<<<< HEAD
-    flex-basis: 25%;
-    padding: 10px;
-    color:white;
-=======
     flex-basis: 100%;
->>>>>>> 83d17164f1ad554a22b360a25e43cf4df38fb30b
   }
 
   .col:nth-child(2), .col:nth-child(3) {
