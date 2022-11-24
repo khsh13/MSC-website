@@ -9,6 +9,12 @@ html,body{
  *::before, *::after {
 	 box-sizing: border-box;
 }
+.faqimg{
+	height:20rem;
+	position: absolute;
+	left:5;
+	bottom:0;
+}
  body {
 	 margin: 0;
 	 padding: 0;
@@ -40,6 +46,11 @@ html,body{
 h2{
     color:#76bffa;
     font-weight: bolder;
+}
+.navlogo{
+    height:6rem;
+    margin-top:1rem;
+    margin-left:1rem;
 }
 .accordion{
     margin-top:3rem;
@@ -139,16 +150,26 @@ width:40rem;
 	 font-weight: 300;
 	 margin: 2em 0;
 }
-.logo{
-    height:8rem;
-}
-.logophn{
-    display:none;
-}
+
+.navbar-inline{
+	display: inline-block;
+	position: absolute;
+	top:0;
+	right:0;
+  }
  @media(max-width:819px)
- {.logo{
-    display:none;
-      }
+ { .navlogo{
+    height:6rem;
+  }
+	h2{
+    color:#76bffa;
+    font-weight: bolder;
+	font-size:1.2rem;
+}
+	.faqimg{
+	display: none;
+ }
+	
     .accordion .accordion-item {
 
         /*background-color: #213a62;
@@ -160,10 +181,7 @@ width:40rem;
         width:16rem;
         
         }
-        .logophn{
-            height: 6rem;
-            display: inline;
-        }
+        
         .nav-click{
             color:white;
             font-size:1rem;
