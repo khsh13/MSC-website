@@ -146,10 +146,11 @@ html,body{
 /*    float:left;*/
     overflow: hidden;
 margin: 5% 15% 1% 15%;
-    min-width: 240px;
+    min-width: 140px;
     max-width: 500px;
+/*    max-height: 280px;*/
     width: 70%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 95.95);
     /*border-radius: 50%;*/
 }
 
@@ -158,8 +159,8 @@ margin: 5% 15% 1% 15%;
     vertical-align: top;
     -webkit-transition: all 2s ease-out;
     transition: all 2s ease-out;
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .snip1374:hover img,
