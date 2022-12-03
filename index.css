@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Courgette&family=Lobster&family=Patrick+Hand&display=swap');
 *{
-  font-family: 'Bebas Neue', cursive;
-font-family: 'Caveat', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Patrick Hand', cursive;
+
 }
 html,body{
     overflow-x: hidden;
@@ -27,18 +23,14 @@ html,body{
 #home{
     display:flex;
     flex-wrap: wrap-reverse;
-    margin:0rem 7rem 0 10rem;
-    height:80vh;
+    margin:2rem 7rem 0 10rem;
+    height:65vh;
 
 }
 .desc{
     width:35rem; 
 }
-.desc h1{ font-family: 'Bebas Neue', cursive;
-  font-family: 'Caveat', cursive;
-  font-family: 'Courgette', cursive;
-  font-family: 'Lobster', cursive;
-  font-family: 'Patrick Hand', cursive;
+.desc h1{ 
     color:white;
     font-size:2.5rem;
     margin-top:8rem;
