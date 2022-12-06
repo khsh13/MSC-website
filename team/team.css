@@ -43,7 +43,8 @@ body{
 
 .section-team .single-person {
 	margin-top: 30px;
-  margin:auto;
+  margin-left:auto;
+  margin-right:auto;
   text-align: center;
 	padding: 20px;
 	background-color: #f6f9ff;
@@ -142,7 +143,8 @@ footer {
 
 .row {
   width: 85%;
-  margin: auto;
+  margin-left:auto;
+  margin-right:auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
