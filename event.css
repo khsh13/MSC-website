@@ -14,10 +14,18 @@
   
   
   h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     color: #fff;
     margin: 40px 0 20px 0;
     text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin: 40px 0 -25px 0;
+    text-align: center;
+
   }
   
 
@@ -571,31 +579,31 @@ body {
   
   
   .carousel__face:nth-child(1) {
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc.jpg");
     transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc2.jpg");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("Ideathon.jpeg");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc.jpg");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc2.jpg");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("Ideathon.jpeg");
    transform: rotateY(200deg) translateZ(430px); }
   .carousel__face:nth-child(7) { 
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc.jpg");
    transform: rotateY(240deg) translateZ(430px); }
   .carousel__face:nth-child(8) {
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("msc2.jpg");
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url("msc_ideathon.jpg");
+    background-image: url("Ideathon.jpeg");
     transform: rotateY(320deg) translateZ(430px); }
   
   
