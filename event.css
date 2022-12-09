@@ -318,16 +318,16 @@ body {
   }
 }
 /*Footer*/
+/*Footer*/
 footer {
     width: 100%;
    
     background: linear-gradient(to right, #4797ff,#001d42);
-
    
-    padding: 100px 0 30px;
+    padding: 50px 0 30px;
     border-top-left-radius: 125px;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 9px;
     
   }
   
@@ -352,14 +352,22 @@ footer {
   }
   
   .logo {
-    width: 80px;
-    margin-bottom: 30px;
+    width: 100px;
+    margin-bottom: 100px;
   }
   
   .col h3 {
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
+  }
+
+  .col p{
+    font-size:15px;
+  }
+
+  .col a{
+	color:#fff;
   }
   
   .email-id {
@@ -479,6 +487,7 @@ footer {
       flex-basis: 100%;
     }
   }
+  
   
 
   /*  */
