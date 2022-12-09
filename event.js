@@ -23,6 +23,10 @@ async function to_right(){
 }
 
 
+
+
+
+
 }
 async function to_left(){
     var a = document.getElementsByClassName('slider')[0]
