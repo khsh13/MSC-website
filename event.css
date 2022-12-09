@@ -3,320 +3,54 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
   }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(to right, #4797ff,#001d42);
-  }
-  
-  
-  h1 {
-    font-size: 2rem;
-    color: #fff;
-    margin: 40px 0 20px 0;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 2.8rem;
-    color: #fff;
-    margin: 40px 0 -25px 0;
-    text-align: center;
-
-  }
-  
-
-
-
-
-  /*  */
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Courgette&family=Lobster&family=Patrick+Hand&display=swap');
-*{
-  font-family: 'Bebas Neue', cursive;
-font-family: 'Caveat', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Patrick Hand', cursive;
-}
-html,body{
-    /* overflow-x: hidden; */
-}
-    body{
-        background: linear-gradient(to right, #4797ff,#001d42);
-  
+  /*Navbar*/
+  .nav-click{
+    color:white;
+    font-size:1.25rem;
 }
 
-.navbar-inline{
-  display: inline-block;
-  position: absolute;
-  top:0;
-  right:0;
+.navlogo{
+  height:6rem;
+  margin-top:1rem;
+  margin-left:1rem;
 }
-.nav-click{
+
+.nav-click:hover{
   color:white;
   font-size: 1.25rem;
+  text-decoration: underline white;
 }
-#home{
-    display:flex;
-    flex-wrap: wrap-reverse;
-    margin:0rem 7rem 0 10rem;
-    height:80vh;
-
-}
-.desc{
-    width:35rem; 
-}
-.desc h1{ font-family: 'Bebas Neue', cursive;
-  font-family: 'Caveat', cursive;
-  font-family: 'Courgette', cursive;
-  font-family: 'Lobster', cursive;
-  font-family: 'Patrick Hand', cursive;
-    color:white;
-    font-size:2.5rem;
-    margin-top:8rem;
-
-}
-.desc p{
-    color:white;
-    font-size:2rem;
-}
-.navlogo{
-   
-    height: 6rem;
-    margin-top: 1rem;
-    margin-left: -40rem;
-}
-.logophn{
-    display:none;
-}
-.homeimage{
-    margin-left:10rem;
+.navbar-inline{
+display: inline-block;
+position: absolute;
+top:0;
+right:0;
 }
 
-.homeimage img{
-    height:25rem;
-}
- @media (max-width:1024px)
- {
-  .homeimage{
-    margin-left:1rem;
-    margin-bottom: 0;
-    border:1px soid white;
-    height: 18rem;
-}
-  .homeimage img{
-    height:15rem; 
-}
-  .navlogo{
-    height:6rem;
-  }
-    .desc h1{
-        color:white;
-        font-size:1.5rem;
-        margin-top:0rem;
-    
-    }
-    #home{
-        display:flex;
-        flex-wrap: wrap-reverse;
-        margin:0rem 2rem 0 2rem;
-    }
-    .desc p{
-        color:white;
-        font-size:1rem;
-    }
-    .nav-click{
-        color:white;
-        font-size:1rem;
-
-    }
-    .logophn{
-        height: 6rem;
-        display: inline;
-    }
- }
-
-
-
-
-
-
-/* About  page*/
-
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:600,700');
-
-
-.row{
-/*    width: 95%;*/
+@media(max-width:819px)
+{ .navlogo{
+  height:6rem;
 }
 
-.container{
-    background-color: #ffffff;
-    width:100%;
-    
+      .nav-click{
+          color:white;
+          font-size:1rem;
+          font-family: 'Caveat', cursive;
+          font-family: 'Courgette', cursive;
+          font-family: 'Lobster', cursive;
+          font-family: 'Patrick Hand', cursive;
+      }
 }
-
-.headAboutus{
-    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 800;
-    color: #213a62;
-    display: inline;
-    font-size: 2.5rem;
-}
-
-.headcontent{
-    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 600;
-    color: #213a62;
-    text-align: center;
-    padding: 10% 0% 0% 0%;
-/*    display: inline;*/
-    font-size: 1.5rem;
-    vertical-align: middle;
-
-/*    margin-left:15rem ;*/
-}
-
-
-.snip1374 {
-    position: relative;
-/*    align-self: center;*/
-/*    float:left;*/
-    overflow: hidden;
-margin: 5% 15% 1% 15%;
-    min-width: 240px;
-    max-width: 500px;
-    width: 70%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-}
-
-.snip1374 img {
-    max-width: 100%;
-    vertical-align: top;
-    -webkit-transition: all 2s ease-out;
-    transition: all 2s ease-out;
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-}
-
-.snip1374:hover img,
-.snip1374.hover img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-.info-text{
-  top: 50%;
-}
-.info-text p {
-    display: table-cell;
-    margin: 0;
-    vertical-align: middle;
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
-    padding: 3% 5% 0% 5%;
-    vertical-align: middle;
-    color:black;
-}
-.info-text .right {
-/*  float: right;*/
-}
-
-
-
-/*waves*/
-
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
 body {
-  margin:0;
-}
-
-
-
-
-.header {
-  position:relative;
-  text-align:center;
-/*  background: linear-gradient(60deg, #213a62 0%, rgba(0,172,220,1) 100%);*/
-  color:white;
-}
-
-
-.inner-header {
-/*  height:65vh;*/
-  width:100%;
   margin: 0;
   padding: 0;
+  font-family: 'Hind', sans-serif;
+    background: #213a62;
+  
+  min-height: 100vh;
 }
 
-.flex { /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.waves {
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
-}
-
-.content {
-  position:relative;
-  height:20vh;
-  text-align:center;
-  background-color: white;
-}
-
-/* Animation */
-
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-}
 /*Footer*/
 /*Footer*/
 footer {
